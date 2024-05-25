@@ -1,4 +1,5 @@
 #Game Name: The Distraction
+
 #Problem Statement:
 The code provided is for a platform game called "The Distraction." The game involves a player navigating through levels filled with obstacles and enemies while trying to reach the exit. The player must avoid distractions represented by various sprites (e.g., mobile phones, footballs, and Instagram icons) to progress through the levels. The game utilizes Pygame, a popular Python library for creating video games.
 #Title:
