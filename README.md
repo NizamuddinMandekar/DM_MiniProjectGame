@@ -1,12 +1,15 @@
-#Game Name: The Distraction
+Game Name: The Distraction
 
-#Problem Statement:
+Problem Statement:
 The code provided is for a platform game called "The Distraction." The game involves a player navigating through levels filled with obstacles and enemies while trying to reach the exit. The player must avoid distractions represented by various sprites (e.g., mobile phones, footballs, and Instagram icons) to progress through the levels. The game utilizes Pygame, a popular Python library for creating video games.
-#Title:
+
+Title:
 The Distraction: A Platform Game Using Pygame
-#Introduction:
+
+Introduction:
 "The Distraction" is a platform game that challenges players to navigate through various levels filled with obstacles and distractions. The game is built using Pygame, a Python library that simplifies the process of game development. Players control a character that must avoid enemies and reach the exit to complete each level. The game features moving platforms, collectible items, and enemies that move in predefined patterns, adding to the challenge.
-#Future Work:
+
+Future Work:
 Future work on "The Distraction" could include the following enhancements:
 - Additional Levels: Increase the number of levels to provide more gameplay content.
 - Power-Ups and Bonuses: Introduce power-ups that give the player temporary abilities, such as invincibility or speed boosts.
@@ -15,13 +18,15 @@ Future work on "The Distraction" could include the following enhancements:
 - Customizable Characters: Allow players to customize the appearance of their characters.
 - Improved Graphics and Sound: Enhance the visual and auditory experience with higher quality graphics and sound effects.
 - Mobile Version: Develop a version of the game that can be played on mobile devices.
-#How AI is Used in This:
+
+How AI is Used in This:
 In the current implementation of "The Distraction," AI is used in a limited capacity to control the movement of enemy sprites. The enemies, such as Instagram icons, mobile phones, and footballs, move back and forth or up and down, reacting to predefined conditions. However, more sophisticated AI techniques could be incorporated in future updates, such as:
 - Pathfinding Algorithms: Implementing algorithms like A* or Dijkstra's to enable enemies to navigate complex environments.
 - Behavior Trees: Using behavior trees to create more complex and varied enemy behaviors, making the game more challenging and engaging.
 - Machine Learning: Incorporating machine learning techniques to allow enemies to adapt to the player's behavior, providing a dynamic and challenging experience.
 - Procedural Content Generation: Using AI to generate levels procedurally, ensuring that each playthrough is unique and challenging.
-#Explanation:
+
+Explanation:
 1. Imports and Initialization: The code imports necessary libraries including Pygame, and initializes Pygame and the mixer for handling sounds.
 2. Display Setup: It configures the game window to match the screen's aspect ratio and sets it to Fullscreen.
 3. Loading Assets: Loads fonts, colors, images, and sounds needed for the game.
@@ -33,7 +38,8 @@ In the current implementation of "The Distraction," AI is used in a limited capa
 9. Enemy and Object Classes: Defines behaviours and properties for various game objects like enemies, platforms, and exit points.
 10. Game Initialization: Initializes the player, sprite groups, and loads the initial level data. It also creates buttons for the main menu and restarting the game.
 11. Main Game Loop: Runs the game loop, handling game state updates, rendering the game world, and managing user inputs. It handles transitions between the main menu and the game, updates game entities, checks for collisions, and manages game over and level completion states.
-#Decision Modeling Concepts:
+
+Decision Modeling Concepts:
 1. State Management:
 - Game States: The game manages different states such as the main menu, active gameplay, and game over. State transitions are handled based on user interactions and game events.
 2. Event Handling:
